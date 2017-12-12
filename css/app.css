@@ -1,0 +1,29 @@
+.custom-button-fab {
+    position: fixed;
+    display: block;
+    right: 0;
+    bottom: 0;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    z-index: 100; }
+  
+  .mdl-dialog--full {
+    top: 0px !important;
+    width: 96%;
+    height: 99%; }
+  
+  .custom-textarea {
+    width: 100%; }
+  
+  .mdl-card {
+    min-height: 100px !important;
+    margin: 8px !important; }
+  
+  .mdl-card__actions {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-end; }
+  
+  /*# sourceMappingURL=app.css.map */
+  

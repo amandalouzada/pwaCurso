@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-#v1.0.3
+#v1.0.10
 
 CACHE:
 css/app.css
@@ -10,6 +10,8 @@ node_modules/material-design-lite/material.min.css
 node_modules/material-design-lite/material.min.js
 
 js/index.js
+js/model/nota.js
+js/model/listaNota.js
 
 NETWORK:
 *

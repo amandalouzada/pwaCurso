@@ -1,9 +1,10 @@
 class Nota {
    
-    constructor(id, titulo, descricao) {
-        this._id = id ? id : 0;
-        this._descricao = descricao ? descricao : '';
-        this._titulo = titulo ? titulo : '';
+    constructor() {
+        
+        this._id =0;
+        this._descricao = '';
+        this._titulo = '';
     }
 
     get id(){

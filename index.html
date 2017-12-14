@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="pt-br" manifest="pwa.manifest">
+<html lang="pt-br">
+    <!-- </html> manifest="pwa.manifest"> -->
 
 <head>
     <meta charset="UTF-8">
@@ -39,12 +40,33 @@
         <main class="mdl-layout__content">
             <div class="page-content">                    
                 <div id="listNotaTemplate">
+
                 </div>
             </div>
+
             <button id="addModal" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored custom-button-fab">
                 <i class="material-icons">add</i>
             </button>
         </main>
+        <dialog class="mdl-dialog mdl-dialog--full">
+                <div class="mdl-dialog__content">
+                    <form action="#">
+                        <div class="mdl-textfield mdl-js-textfield">
+                            <input class="mdl-textfield__input" type="text" id="formTitulo">
+                            <label class="mdl-textfield__label" for="formTitulo">Título...</label>
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield custom-textarea">
+                            <textarea class="mdl-textfield__input" type="text" rows="8" id="formNota"></textarea>
+                            <label class="mdl-textfield__label" for="formNota">Nota...</label>
+                        </div>
+                    </form>
+        
+                </div>
+                <div class="mdl-dialog__actions mdl-dialog__actions">
+                    <button type="button" class="mdl-button salvar">Salvar</button>
+                    <button type="button" class="mdl-button close">Cancelar</button>
+                </div>
+            </dialog>
 
     </div>
     <script src="/js/model/listaNota.js"></script>

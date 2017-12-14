@@ -1,3 +1,5 @@
+
+
 class View {
 
     constructor(elemento) {
@@ -12,4 +14,5 @@ class View {
         this._elemento.innerHTML = this.template(model);
     }
 }
- 
+
+

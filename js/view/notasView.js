@@ -1,9 +1,7 @@
 class NotasView extends View {
 
     constructor(elemento) {
-
         super(elemento);
-
     }
 
     template(model) {

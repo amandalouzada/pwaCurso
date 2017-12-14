@@ -15,6 +15,9 @@ class NotasView extends View {
                     ${n.descricao}
                 </div>
                 <div class="mdl-card__actions mdl-card--border">
+                    <a id="${n.id}" onclick="editar(this)" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect editar_nota">
+                        <i class="material-icons">mode_edit</i>
+                    </a>
                     <a id="${n.id}" onclick="deletar(this)" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect deletar_nota">
                         <i class="material-icons">delete</i>
                     </a>
